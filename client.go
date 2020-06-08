@@ -14,5 +14,5 @@ func main() {
 	defer mySocket.Close()
 
 	sendMsg := "Hello! This is test message from my sample client!"
-	mySocket.Write([]byte(sendMsg))
+	mySocket.Write([]byte(sendMsg + "\n"))
 }
