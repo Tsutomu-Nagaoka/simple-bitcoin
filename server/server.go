@@ -34,7 +34,7 @@ func listenWorker(ln net.Listener) {
 }
 
 func main() {
-	log.Print("Launching server...")
+	log.Print("Launching server..")
 	ln := createListener()
 	listenWorker(ln)
 }
